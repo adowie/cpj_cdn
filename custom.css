@@ -1,0 +1,308 @@
+/* here you can put your own css to customize and override the theme */
+
+/***
+Rounded Portlets
+***/
+/*
+.portlet {
+	border-radius: 4px !important;
+}
+
+.portlet .portlet-title {
+	border-radius: 4px 4px 0px 0px !important;
+}
+
+.portlet .portlet-body,
+.portlet .portlet-body .form-actions  {
+	border-radius: 0px 0px 4px 4px !important;
+}
+*/
+.login .content {
+    margin: 1px auto 10px auto !important;
+}
+
+.login .logo {
+    margin-top: 90px !important;
+}
+
+.page-header .page-header-top .page-logo .logo-default {
+    margin: 4.5px 0 0 0 !important;
+}
+
+.login {
+     background-color: #fff !important;
+}
+
+
+.fa-2x {
+    font-size: 2em !important;
+}
+
+.fa-3x {
+    font-size: 3em !important;
+}
+
+.fa-4x {
+    font-size: 4em !important;
+}
+
+.fa-5x {
+    font-size: 5em !important;
+}
+/* TODO: @dmalcolm 4/1/2016 */
+.fa-6x {
+    font-size: 6em !important;
+}
+
+.fa-7x {
+    font-size: 7em !important;
+}
+
+.fa-8x {
+    font-size: 8em !important;
+}
+
+.fa-9x {
+    font-size: 9em;
+    margin
+}
+
+
+
+.table {
+    margin-bottom: 0px !important;
+}
+
+.dataTable {
+    margin-top: 0px !important;
+    /*width: 100% !important;*/
+}
+
+.title{
+    font-weight:bold;
+}
+
+.form-wizard .steps > li > a.step > .number {
+    padding: 10px 12px 11px 10px !important;
+    height: 33px !important;
+    width: 33px !important;
+    font-size: 11px !important;
+}
+
+.form-wizard .steps {
+    padding: 0px 0 !important;
+    margin-bottom: 0px 0 !important;
+}
+
+.form-wizard .steps > li.working_on > a.step .number {
+    background-color: #af1e2c;
+    color: #fff;
+}
+
+.form-wizard .steps > li.active > a.step .number {
+    background-color: #45b677 !important;
+    color: #fff;
+}
+
+page-header .page-header-top .top-menu .navbar-nav > li.dropdown-notification .dropdown-menu .dropdown-menu-list > li a .details .label-icon {
+    margin-right: 2px !important;
+}
+
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-notification .dropdown-menu .dropdown-menu-list > li a .details .label-icon i {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-notification .dropdown-menu .dropdown-menu-list > li a .details {
+    font-size: 12px;
+}
+
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-extended .dropdown-menu {
+    max-width: 460px !important;
+    width: 460px !important;
+}
+
+a.btn.btn-danger.iframe.cboxElement,a#permit_application_online {
+    height: 33px !important;
+}
+
+
+label {
+    font-weight: 400;
+    font-size: 11px !important;
+}
+
+.radio-inline, .checkbox-inline {
+    padding-left: 2px !important;
+}
+
+div.dataTables_length {
+    padding-left: 2em;
+}
+div.dataTables_length,
+div.dataTables_filter {
+    padding-top: 0.55em;
+}
+
+div.dataTables_scrollHeadInner{
+    width:100% !important;
+}
+
+.carousel-indicators li {
+    border: 1px solid #ff0000 !important;
+    border-radius: 10px;
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.carousel-indicators .active
+{
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    background-color: #ff0000 !important;
+}
+
+.carousel-indicators {
+    background: #000;
+    height: 32px;
+    padding-top: 6px;
+}
+
+.btn-theme-panel{
+    margin-top: 10px !important;
+}
+
+select#dashboardyear {
+    height: 24px;
+    margin-top: -6px;
+}
+
+.borderless tbody tr td, .borderless tbody tr th, .borderless thead tr th {
+    border: none;
+}
+
+.click{
+    cursor: pointer;
+}
+
+#datamining tr td:first-child{
+    font-weight: bold;
+}
+
+html {
+    /*font-size: 100%;*/
+
+    /* or 62.5% or whatever you like, it doesn't matter, it's just a browser fix, however "rem" units will be based on that value, so make it confortable for calculations */
+
+    /*zoom: 85%;*/
+}
+
+
+
+.scroller{
+    data-rail-color: white;
+}
+
+a.iframe{
+    text-decoration:none;
+}
+
+.no-data-display{
+    text-align:center;
+    margin-top: 30px;
+}
+
+.table-scrollable {
+    border: 1px solid #fff !important;
+}
+
+#datamining_rec{
+    font-size:9px !important;
+}
+
+.user-logs{
+    font-size:9px !important;
+}
+
+
+.mini-submenu{
+    display:none;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0.9);
+    border-radius: 4px;
+    padding: 9px;
+    width: 42px;
+}
+.mini-submenu:hover{
+    cursor: pointer;
+}
+
+.mini-submenu .icon-bar {
+    border-radius: 1px;
+    display: block;
+    height: 2px;
+    width: 22px;
+    margin-top: 3px;
+}
+
+.mini-submenu .icon-bar {
+    background-color: #000;
+}
+
+#report_body {
+    /*padding-left: 0;
+    margin-left: 0;
+
+    height: auto;
+
+    width: 100%;*/
+    display: inline-block;
+}
+
+.col-xs-0{
+    width:3.333333%;
+}
+
+.col-xs-13{
+    width: 96.666667%;
+}
+.col-xs-0,.col-xs-13
+{
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.column {
+    width: 100%;
+    height: calc(70% - 30px);
+    /*background-color: #E0FFF4;*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.tab-pane .content {
+    width: calc(30% - 30px);
+    /*min-height: 60px;
+    margin: 15px;
+    background-color: #CEBFFF;*/
+}
+
+h5.filter-title{
+    display:inline;
+}
+
+.row_heading{
+font-weight: bold;
+}
+
+._actions_list{
+    margin-right: 10px;
+}
+
+.modal-lg{
+    width: 1100px;
+}
