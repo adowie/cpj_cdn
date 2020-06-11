@@ -4940,9 +4940,9 @@ Editableform based on Twitter Bootstrap 3
             }
 
 
-            var calculatedOffset = this.getCalculatedOffset(placement, pos, actualWidth, actualHeight);
+//             var calculatedOffset = this.getCalculatedOffset(placement, pos, actualWidth, actualHeight);
 
-            this.applyPlacement(calculatedOffset, placement);            
+//             this.applyPlacement(calculatedOffset, placement);            
                      
                 
             }).call(this.container());
